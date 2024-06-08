@@ -9,4 +9,6 @@
 # while true; do echo -e "HTTP/1.1 200 OK\n\n {\"key\":\"value\"}" | nc -l localhost 31337; done
 #
 # curl -v http://localhost:31337
+#
+# https://stackoverflow.com/questions/3135307/send-post-request-with-netcat
 # 
